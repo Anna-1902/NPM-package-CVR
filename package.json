@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "@arpi-1902/cvr-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anna-1902/NPM-package-CVR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Anna-1902/NPM-package-CVR#readme",
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}
