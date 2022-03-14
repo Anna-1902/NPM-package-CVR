@@ -4,7 +4,7 @@ const {
   getCompanyByProdu,
   getCompanyBySearch,
   getCompanyByVat
-} = require('./index.js');
+} = require('../index.js');
 
 
 //search by name, cvr or p-number

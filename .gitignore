@@ -1,6 +1,4 @@
 # anywhere in .gitignore
 node_modules
+examples/
 .idea
-./src/index.test.js
-./src/utils.js
-./src/mocked.test.js

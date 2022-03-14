@@ -1,6 +1,6 @@
 
 const axios = require('axios');
-const {getMockSearch, baseUrl} = require("./utils.js");
+const {getMockSearch, baseUrl} = require("../utils.js");
 
 jest.mock('axios');
 
