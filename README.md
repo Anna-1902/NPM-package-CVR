@@ -8,7 +8,7 @@ It is also possible to search for a company specifically by cvr, name, phone or 
 ## Install
 
 ```
-npm install cvr-api
+npm install @arpi-1902/cvr-api
 ```
 
 ## Usage

@@ -1,10 +1,15 @@
-import axios from "axios";
+const axios = require('axios');
 
-export const baseUrl = 'https://cvrapi.dk/api?search=2345&country=dk'
+const baseUrl = 'https://cvrapi.dk/api?search=2345&country=dk'
 
-export async function getMockSearch () {
+async function getMockSearch () {
     try {
         const response = await axios.get(`${baseUrl}`)
         return response.data
     } catch (error) {return error}
 };
+
+module.exports = {
+    getMockSearch,
+    baseUrl
+}
