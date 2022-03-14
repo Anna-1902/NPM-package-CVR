@@ -16,15 +16,17 @@ npm install @arpi-1902/cvr-api
 #### Get company from register by search:
 
 ```
-import { getCompanyBySearch } from 'cvr-api'
+import { getCompanyBySearch } from '@arpi-1902/cvr-api'
 
 const result = getCompanyBySearch (search input, country)
 ```
 
 #### Get company from register by VAT
 
+Note: VAT must be a number
+
 ```
-import { getCompanyByVat } from 'cvr-api'
+import { getCompanyByVat } from '@arpi-1902/cvr-api'
 
 const result = getCompanyByVat (vat, country)
 ```
@@ -32,7 +34,7 @@ const result = getCompanyByVat (vat, country)
 #### Get company from register by name
 
 ```
-import { getCompanyByName } from 'cvr-api'
+import { getCompanyByName } from '@arpi-1902/cvr-api'
 
 const result = getCompanyByName (name, country)
 ```
@@ -40,7 +42,7 @@ const result = getCompanyByName (name, country)
 #### Get company from register by productionunit
 
 ```
-import { getCompanyByProdu } from 'cvr-api'
+import { getCompanyByProdu } from '@arpi-1902/cvr-api'
 
 const result = getCompanyByProdu (produ, country)
 ```
@@ -48,7 +50,7 @@ const result = getCompanyByProdu (produ, country)
 #### Get company from register by phonenumber
 
 ```
-import { getCompanyByPhone } from 'cvr-api'
+import { getCompanyByPhone } from '@arpi-1902/cvr-api'
 
 const result = getCompanyByPhone (phone, country)
 ```
