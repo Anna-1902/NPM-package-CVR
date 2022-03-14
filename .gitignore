@@ -1,4 +1,4 @@
 # anywhere in .gitignore
 node_modules
-src/examples/
+src/examples
 .idea
